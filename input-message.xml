@@ -1,0 +1,17 @@
+<shopping>
+    <categoryb type="groceries">
+        <item>Chocolate</item>
+        <item>Coffee</item>
+    </categoryb>
+    <categoryb type="supplies">
+        <item>Paper</item>
+        <item quantity="4">Pens</item>
+    </categoryb>
+    <categoryb type="supplies">
+        <item>Eraser</item>
+        <item quantity="6">Pens</item>
+    </categoryb>
+    <categoryb type="present">
+        <item when="Aug 10">Kathryn's Birthday</item>
+    </categoryb>
+</shopping>

@@ -1,0 +1,344 @@
+<BG:npsLk01 xmlns:BG="http://www.egem.nl/StUF/sector/bg/0310" xmlns:StUF="http://www.egem.nl/StUF/StUF0301" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.egem.nl/StUF/sector/bg/0310 file:///D:/IGP-Ontwikkel/Software/Projects/makelaarsuite/cgs/cgs-services/cgs-services-adapterin-bg0310/src/main/webapp/WEB-INF/services/BG0310/META-INF/bg0310_msg.xsd">
+<BG:stuurgegevens>
+<StUF:berichtcode>Lk01</StUF:berichtcode>
+<StUF:zender>
+<StUF:applicatie>TSTBGIN</StUF:applicatie>
+</StUF:zender>
+<StUF:ontvanger>
+<StUF:applicatie>CMODIS</StUF:applicatie>
+</StUF:ontvanger>
+<StUF:referentienummer>NPS01</StUF:referentienummer>
+<StUF:tijdstipBericht>1507281060000000</StUF:tijdstipBericht>
+<StUF:entiteittype>NPS</StUF:entiteittype>
+</BG:stuurgegevens>
+<BG:parameters>
+<StUF:mutatiesoort>T</StUF:mutatiesoort>
+<StUF:indicatorOvername>V</StUF:indicatorOvername>
+</BG:parameters>
+<BG:object StUF:entiteittype="NPS" StUF:sleutelVerzendend="NPS01" StUF:verwerkingssoort="T">
+<BG:inp.bsn>008477010</BG:inp.bsn>
+<BG:authentiek StUF:metagegeven="true">J</BG:authentiek>
+<BG:sub.typering>Ingezetene</BG:sub.typering>
+<BG:inp.a-nummer>5319147010</BG:inp.a-nummer>
+<BG:geslachtsnaam>NPS01</BG:geslachtsnaam>
+<BG:voorvoegselGeslachtsnaam>van</BG:voorvoegselGeslachtsnaam>
+<BG:voorletters>N.P.</BG:voorletters>
+<BG:voornamen>Natuurlijk Persoon</BG:voornamen>
+<BG:aanduidingNaamgebruik>V</BG:aanduidingNaamgebruik>
+<BG:geslachtsnaamPartner>Persoon</BG:geslachtsnaamPartner>
+<BG:voorvoegselGeslachtsnaamPartner>De</BG:voorvoegselGeslachtsnaamPartner>
+<BG:adellijkeTitelPredikaat>Baron</BG:adellijkeTitelPredikaat>
+<BG:geslachtsaanduiding>M</BG:geslachtsaanduiding>
+<BG:geboortedatum>19581014</BG:geboortedatum>
+<BG:inp.geboorteplaats>772</BG:inp.geboorteplaats>
+<BG:inp.geboorteLand>6030</BG:inp.geboorteLand>
+<BG:overlijdensdatum>20110101</BG:overlijdensdatum>
+<BG:inp.overlijdenplaats>Eindhoven</BG:inp.overlijdenplaats>
+<BG:inp.overlijdenLand>6030</BG:inp.overlijdenLand>
+<BG:inp.verblijftIn StUF:entiteittype="NPSTGO" StUF:verwerkingssoort="T">
+<BG:gerelateerde StUF:entiteittype="TGO" StUF:verwerkingssoort="T">
+<BG:identificatie>1507011000000001</BG:identificatie>
+<BG:authentiek StUF:metagegeven="true">J</BG:authentiek>
+<BG:typering>Verblijfsobject</BG:typering>
+<BG:adresAanduidingGrp>
+<BG:num.identificatie>1020304050607011</BG:num.identificatie>
+<BG:authentiek StUF:metagegeven="true">J</BG:authentiek>
+<BG:wpl.woonplaatsNaam>WPLNAM voor het testen van een complete NPS</BG:wpl.woonplaatsNaam>
+<BG:gor.openbareRuimteNaam>oprruimtenaamvoorNPS01</BG:gor.openbareRuimteNaam>
+<BG:aoa.postcode>1213XX</BG:aoa.postcode>
+<BG:aoa.huisnummer>1</BG:aoa.huisnummer>
+<BG:aoa.huisletter>A</BG:aoa.huisletter>
+<BG:aoa.huisnummertoevoeging xsi:nil="true" StUF:noValue="geenWaarde"/>
+<BG:ogo.locatieAanduiding xsi:nil="true" StUF:noValue="geenWaarde"/>
+</BG:adresAanduidingGrp>
+</BG:gerelateerde>
+<BG:inOnderzoek StUF:metagegeven="true">J</BG:inOnderzoek>
+<BG:brondocument StUF:metagegeven="true">
+<BG:identificatie>BRNDOC1</BG:identificatie>
+<BG:omschrijving>DOCOMS1</BG:omschrijving>
+<BG:gemeente>0772</BG:gemeente>
+</BG:brondocument>
+<StUF:tijdvakRelatie>
+<StUF:beginRelatie>19880602</StUF:beginRelatie>
+<StUF:eindRelatie xsi:nil="true" StUF:noValue="geenWaarde"/>
+</StUF:tijdvakRelatie>
+</BG:inp.verblijftIn>
+<BG:verblijfsadres>
+<BG:aoa.identificatie>1020304050607012</BG:aoa.identificatie>
+<BG:authentiek StUF:metagegeven="true">J</BG:authentiek>
+<BG:wpl.identificatie>001</BG:wpl.identificatie>
+<BG:wpl.woonplaatsNaam>WPLNAM voor het testen van een complete NPS</BG:wpl.woonplaatsNaam>
+<BG:aoa.woonplaatsWaarinGelegen>
+<BG:wpl.identificatie>001</BG:wpl.identificatie>
+<BG:wpl.woonplaatsNaam>Horst aan de Maas</BG:wpl.woonplaatsNaam>
+</BG:aoa.woonplaatsWaarinGelegen>
+<BG:gor.identificatie>1020304050607081</BG:gor.identificatie>
+<BG:opr.identificatie>1020304050607082</BG:opr.identificatie>
+<BG:gor.openbareRuimteNaam>oprruimtenaamvoorNPS012</BG:gor.openbareRuimteNaam>
+<BG:gor.straatnaam>Lijsterbeslaan012</BG:gor.straatnaam>
+<BG:aoa.postcode>7461VJ</BG:aoa.postcode>
+<BG:aoa.huisnummer>19</BG:aoa.huisnummer>
+<BG:aoa.huisletter xsi:nil="true" StUF:noValue="geenWaarde"/>
+<BG:aoa.huisnummertoevoeging xsi:nil="true" StUF:noValue="geenWaarde"/>
+<BG:inp.locatiebeschrijving xsi:nil="true" StUF:noValue="geenWaarde"/>
+<BG:begindatumVerblijf>20010502</BG:begindatumVerblijf>
+</BG:verblijfsadres>
+<BG:inp.adresHerkomst>W</BG:inp.adresHerkomst>
+<BG:sub.correspondentieAdres>
+<BG:typering>Postadres</BG:typering>
+<BG:wpl.woonplaatsNaam>WPLNAM voor het testen van een complete NPS</BG:wpl.woonplaatsNaam>
+<BG:postcode>7461VJ</BG:postcode>
+<BG:sub.postadresType>P</BG:sub.postadresType>
+<BG:sub.postadresNummer>12345</BG:sub.postadresNummer>
+</BG:sub.correspondentieAdres>
+<BG:sub.telefoonnummer>04022134560</BG:sub.telefoonnummer>
+<BG:sub.faxnummer>0622134599</BG:sub.faxnummer>
+<BG:sub.emailadres>prlg@prlg.nl</BG:sub.emailadres>
+<BG:sub.url>www.prlg.nl</BG:sub.url>
+<BG:sub.rekeningnummerBankGiro>1234567</BG:sub.rekeningnummerBankGiro>
+<BG:acd.code>DR</BG:acd.code>
+<BG:acd.code>MR</BG:acd.code>
+<BG:inp.burgerlijkeStaat>3</BG:inp.burgerlijkeStaat>
+<BG:inp.gemeenteVanInschrijving>1507</BG:inp.gemeenteVanInschrijving>
+<BG:inp.datumInschrijving>19880602</BG:inp.datumInschrijving>
+<BG:vbt.aanduidingVerblijfstitel>28</BG:vbt.aanduidingVerblijfstitel>
+<BG:ing.datumVerkrijgingVerblijfstitel>20010323</BG:ing.datumVerkrijgingVerblijfstitel>
+<BG:ing.datumVerliesVerblijfstitel>20050430</BG:ing.datumVerliesVerblijfstitel>
+<BG:inp.datumVestigingInNederland>20010323</BG:inp.datumVestigingInNederland>
+<BG:inp.immigratieLand>2012</BG:inp.immigratieLand>
+<BG:inp.datumVertrekUitNederland>20060403</BG:inp.datumVertrekUitNederland>
+<BG:inp.emigratieLand>2012</BG:inp.emigratieLand>
+<BG:inp.signaleringReisdocument>1</BG:inp.signaleringReisdocument>
+<BG:inp.aanduidingBijzonderNederlanderschap>B</BG:inp.aanduidingBijzonderNederlanderschap>
+<BG:inp.buitenlandsReisdocument>1</BG:inp.buitenlandsReisdocument>
+<BG:ing.aanduidingEuropeesKiesrecht>2</BG:ing.aanduidingEuropeesKiesrecht>
+<BG:ing.aanduidingUitgeslotenKiesrecht>A</BG:ing.aanduidingUitgeslotenKiesrecht>
+<BG:ing.indicatieGezagMinderjarige>1D</BG:ing.indicatieGezagMinderjarige>
+<BG:ing.indicatieCurateleRegister>1</BG:ing.indicatieCurateleRegister>
+<BG:inp.datumOpschortingBijhouding>20060403</BG:inp.datumOpschortingBijhouding>
+<BG:inp.redenOpschortingBijhouding>M</BG:inp.redenOpschortingBijhouding>
+<BG:inp.indicatieGeheim>0</BG:inp.indicatieGeheim>
+<BG:ing.indicatieBlokkering>J</BG:ing.indicatieBlokkering>
+<StUF:tijdvakGeldigheid>
+<StUF:beginGeldigheid>19581014</StUF:beginGeldigheid>
+<StUF:eindGeldigheid xsi:nil="true" StUF:noValue="geenWaarde"/>
+</StUF:tijdvakGeldigheid>
+<StUF:tijdstipRegistratie>20060523192310123</StUF:tijdstipRegistratie>
+<StUF:extraElementen>
+<StUF:extraElement naam="bic">NL</StUF:extraElement>
+<StUF:extraElement naam="iban">1234588</StUF:extraElement>
+</StUF:extraElementen>
+<BG:inp.heeftAlsEchtgenootPartner StUF:entiteittype="NPSNPSHUW" StUF:verwerkingssoort="T">
+<BG:gerelateerde StUF:entiteittype="NPS" StUF:verwerkingssoort="T">
+<BG:inp.bsn>170902011</BG:inp.bsn>
+<BG:inp.a-nummer>8479148011</BG:inp.a-nummer>
+<BG:geslachtsnaam>NPS01HUW01</BG:geslachtsnaam>
+<BG:voorvoegselGeslachtsnaam xsi:nil="true" StUF:noValue="geenWaarde"/>
+<BG:voorletters>P.L.</BG:voorletters>
+<BG:voornamen>Paul Laurens</BG:voornamen>
+<BG:geslachtsaanduiding>M</BG:geslachtsaanduiding>
+<BG:geboortedatum>19620414</BG:geboortedatum>
+<BG:verblijfsadres>
+<BG:aoa.identificatie xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:wpl.woonplaatsNaam xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:gor.openbareRuimteNaam xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:aoa.postcode xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:aoa.huisnummer xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:aoa.huisletter xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:aoa.huisnummertoevoeging xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:inp.locatiebeschrijving xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+</BG:verblijfsadres>
+</BG:gerelateerde>
+<BG:soortVerbintenis>H</BG:soortVerbintenis>
+<BG:datumSluiting>19860918</BG:datumSluiting>
+<BG:plaatsSluiting>0344</BG:plaatsSluiting>
+<BG:landSluiting>6030</BG:landSluiting>
+<BG:datumOntbinding>20011002</BG:datumOntbinding>
+<BG:plaatsOntbinding>0344</BG:plaatsOntbinding>
+<BG:landOntbinding>6030</BG:landOntbinding>
+<BG:redenOntbinding>S</BG:redenOntbinding>
+</BG:inp.heeftAlsEchtgenootPartner>
+<BG:inp.heeftAlsEchtgenootPartner StUF:entiteittype="NPSNPSHUW" StUF:verwerkingssoort="T">
+<BG:gerelateerde StUF:entiteittype="NPS" StUF:verwerkingssoort="T">
+<BG:inp.bsn>170902012</BG:inp.bsn>
+<BG:inp.a-nummer>8479148012</BG:inp.a-nummer>
+<BG:geslachtsnaam>NPS01HUW02</BG:geslachtsnaam>
+<BG:voorvoegselGeslachtsnaam xsi:nil="true" StUF:noValue="geenWaarde"/>
+<BG:voorletters>J</BG:voorletters>
+<BG:voornamen>Jan</BG:voornamen>
+<BG:geslachtsaanduiding>M</BG:geslachtsaanduiding>
+<BG:geboortedatum>19670414</BG:geboortedatum>
+<BG:verblijfsadres>
+<BG:aoa.identificatie xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:wpl.woonplaatsNaam xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:gor.openbareRuimteNaam xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:aoa.postcode xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:aoa.huisnummer xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:aoa.huisletter xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:aoa.huisnummertoevoeging xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:inp.locatiebeschrijving xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+</BG:verblijfsadres>
+</BG:gerelateerde>
+<BG:soortVerbintenis>H</BG:soortVerbintenis>
+<BG:datumSluiting>20011002</BG:datumSluiting>
+<BG:plaatsSluiting>0344</BG:plaatsSluiting>
+<BG:landSluiting>6030</BG:landSluiting>
+</BG:inp.heeftAlsEchtgenootPartner>
+<BG:inp.heeftAlsKinderen StUF:entiteittype="NPSNPSKND" StUF:verwerkingssoort="T">
+<BG:gerelateerde StUF:entiteittype="NPS" StUF:sleutelGegevensbeheer="KND01" StUF:verwerkingssoort="T">
+<BG:inp.bsn>224016012</BG:inp.bsn>
+<BG:inp.a-nummer>1682547012</BG:inp.a-nummer>
+<BG:geslachtsnaam>NPS01KND01</BG:geslachtsnaam>
+<BG:voorvoegselGeslachtsnaam xsi:nil="true" StUF:noValue="geenWaarde"/>
+<BG:voorletters>N.R.</BG:voorletters>
+<BG:voornamen>Nico René</BG:voornamen>
+<BG:geslachtsaanduiding>M</BG:geslachtsaanduiding>
+<BG:geboortedatum>19960702</BG:geboortedatum>
+<BG:verblijfsadres>
+<BG:aoa.identificatie xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:wpl.woonplaatsNaam>Ballum</BG:wpl.woonplaatsNaam>
+<BG:gor.openbareRuimteNaam>'t Skottepâd</BG:gor.openbareRuimteNaam>
+<BG:aoa.postcode>9162GB</BG:aoa.postcode>
+<BG:aoa.huisnummer>3</BG:aoa.huisnummer>
+<BG:aoa.huisletter xsi:nil="true" StUF:noValue="geenWaarde"/>
+<BG:aoa.huisnummertoevoeging xsi:nil="true" StUF:noValue="geenWaarde"/>
+<BG:inp.locatiebeschrijving xsi:nil="true" StUF:noValue="geenWaarde"/>
+</BG:verblijfsadres>
+</BG:gerelateerde>
+<BG:datumIngangFamilierechtelijkeBetrekking>20050601</BG:datumIngangFamilierechtelijkeBetrekking>
+<BG:datumEindeFamilierechtelijkeBetrekking>20050601</BG:datumEindeFamilierechtelijkeBetrekking>
+</BG:inp.heeftAlsKinderen>
+<BG:inp.heeftAlsKinderen StUF:entiteittype="NPSNPSKND" StUF:verwerkingssoort="T">
+<BG:gerelateerde StUF:entiteittype="NPS" StUF:sleutelGegevensbeheer="KND02" StUF:verwerkingssoort="T">
+<BG:inp.bsn>211829013</BG:inp.bsn>
+<BG:inp.a-nummer>5624565013</BG:inp.a-nummer>
+<BG:geslachtsnaam>NPS01KND02</BG:geslachtsnaam>
+<BG:voorvoegselGeslachtsnaam xsi:nil="true" StUF:noValue="geenWaarde"/>
+<BG:voorletters>W.W.</BG:voorletters>
+<BG:voornamen>Wouter Willem</BG:voornamen>
+<BG:geslachtsaanduiding xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:geboortedatum>19930211</BG:geboortedatum>
+<BG:verblijfsadres>
+<BG:aoa.identificatie xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:wpl.woonplaatsNaam xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:gor.openbareRuimteNaam xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:aoa.postcode xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:aoa.huisnummer xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:aoa.huisletter xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:aoa.huisnummertoevoeging xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:inp.locatiebeschrijving xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+</BG:verblijfsadres>
+</BG:gerelateerde>
+<BG:datumIngangFamilierechtelijkeBetrekking>20060601</BG:datumIngangFamilierechtelijkeBetrekking>
+<BG:datumEindeFamilierechtelijkeBetrekking xsi:nil="true" StUF:noValue="geenWaarde"/>
+</BG:inp.heeftAlsKinderen>
+<BG:inp.heeftAlsKinderen StUF:entiteittype="NPSNPSKND" StUF:verwerkingssoort="T">
+<BG:gerelateerde StUF:entiteittype="NPS" StUF:sleutelGegevensbeheer="KND06" StUF:verwerkingssoort="T">
+<BG:inp.bsn>208485014</BG:inp.bsn>
+<BG:inp.a-nummer>9563829014</BG:inp.a-nummer>
+<BG:geslachtsnaam>NPS01KND03</BG:geslachtsnaam>
+<BG:voorvoegselGeslachtsnaam xsi:nil="true" StUF:noValue="geenWaarde"/>
+<BG:voorletters>J.H.</BG:voorletters>
+<BG:voornamen>Jaap Hidde</BG:voornamen>
+<BG:geslachtsaanduiding xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:geboortedatum>19920223</BG:geboortedatum>
+<BG:verblijfsadres>
+<BG:aoa.identificatie xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:wpl.woonplaatsNaam xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:gor.openbareRuimteNaam xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:aoa.postcode xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:aoa.huisnummer xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:aoa.huisletter xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:aoa.huisnummertoevoeging xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:inp.locatiebeschrijving xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+</BG:verblijfsadres>
+</BG:gerelateerde>
+<BG:datumIngangFamilierechtelijkeBetrekking>20070601</BG:datumIngangFamilierechtelijkeBetrekking>
+<BG:datumEindeFamilierechtelijkeBetrekking xsi:nil="true" StUF:noValue="geenWaarde"/>
+</BG:inp.heeftAlsKinderen>
+<BG:inp.heeftAlsKinderen StUF:entiteittype="NPSNPSKND" StUF:verwerkingssoort="T">
+<BG:gerelateerde StUF:entiteittype="NPS" StUF:sleutelGegevensbeheer="KND04" StUF:verwerkingssoort="T">
+<BG:inp.bsn>210012015</BG:inp.bsn>
+<BG:inp.a-nummer>7972324015</BG:inp.a-nummer>
+<BG:geslachtsnaam>NPS01KND04</BG:geslachtsnaam>
+<BG:voorvoegselGeslachtsnaam xsi:nil="true" StUF:noValue="geenWaarde"/>
+<BG:voorletters>H.A.</BG:voorletters>
+<BG:voornamen>Hanna Afke</BG:voornamen>
+<BG:geslachtsaanduiding xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:geboortedatum>19900630</BG:geboortedatum>
+<BG:verblijfsadres>
+<BG:aoa.identificatie xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:wpl.woonplaatsNaam xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:gor.openbareRuimteNaam xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:aoa.postcode xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:aoa.huisnummer xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:aoa.huisletter xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:aoa.huisnummertoevoeging xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:inp.locatiebeschrijving xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+</BG:verblijfsadres>
+</BG:gerelateerde>
+<BG:datumIngangFamilierechtelijkeBetrekking>20080601</BG:datumIngangFamilierechtelijkeBetrekking>
+<BG:datumEindeFamilierechtelijkeBetrekking xsi:nil="true" StUF:noValue="geenWaarde"/>
+</BG:inp.heeftAlsKinderen>
+<BG:inp.heeftAlsOuders StUF:entiteittype="NPSNPSOUD" StUF:verwerkingssoort="T">
+<BG:gerelateerde StUF:entiteittype="NPS" StUF:sleutelGegevensbeheer="58332" StUF:verwerkingssoort="T">
+<BG:inp.bsn xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:inp.a-nummer xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:geslachtsnaam>NPS01OUD01</BG:geslachtsnaam>
+<BG:voorvoegselGeslachtsnaam xsi:nil="true" StUF:noValue="geenWaarde"/>
+<BG:voorletters>L.A.</BG:voorletters>
+<BG:voornamen>Louise Annie</BG:voornamen>
+<BG:geslachtsaanduiding>V</BG:geslachtsaanduiding>
+<BG:geboortedatum>19340301</BG:geboortedatum>
+<BG:verblijfsadres>
+<BG:aoa.identificatie xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:wpl.woonplaatsNaam xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:gor.openbareRuimteNaam xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:aoa.postcode xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:aoa.huisnummer xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:aoa.huisletter xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:aoa.huisnummertoevoeging xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:inp.locatiebeschrijving xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+</BG:verblijfsadres>
+</BG:gerelateerde>
+<BG:datumIngangFamilierechtelijkeBetrekking>19581014</BG:datumIngangFamilierechtelijkeBetrekking>
+<BG:datumEindeFamilierechtelijkeBetrekking xsi:nil="true" StUF:noValue="geenWaarde"/>
+</BG:inp.heeftAlsOuders>
+<BG:inp.heeftAlsOuders StUF:entiteittype="NPSNPSOUD" StUF:verwerkingssoort="T">
+<BG:gerelateerde StUF:entiteittype="NPS" StUF:sleutelGegevensbeheer="58331" StUF:verwerkingssoort="T">
+<BG:inp.bsn xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:inp.a-nummer xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:geslachtsnaam>NPS01OUD02</BG:geslachtsnaam>
+<BG:voorvoegselGeslachtsnaam>van</BG:voorvoegselGeslachtsnaam>
+<BG:voorletters>W.D.</BG:voorletters>
+<BG:voornamen>Willem Dirk</BG:voornamen>
+<BG:geslachtsaanduiding>M</BG:geslachtsaanduiding>
+<BG:geboortedatum>19340423</BG:geboortedatum>
+<BG:verblijfsadres>
+<BG:aoa.identificatie xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:wpl.woonplaatsNaam xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:gor.openbareRuimteNaam xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:aoa.postcode xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:aoa.huisnummer xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:aoa.huisletter xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:aoa.huisnummertoevoeging xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+<BG:inp.locatiebeschrijving xsi:nil="true" StUF:noValue="waardeOnbekend"/>
+</BG:verblijfsadres>
+</BG:gerelateerde>
+<BG:datumIngangFamilierechtelijkeBetrekking>19581015</BG:datumIngangFamilierechtelijkeBetrekking>
+<BG:datumEindeFamilierechtelijkeBetrekking xsi:nil="true" StUF:noValue="geenWaarde"/>
+</BG:inp.heeftAlsOuders>
+<BG:inp.heeftAlsNationaliteit StUF:entiteittype="NPSNAT" StUF:verwerkingssoort="T">
+<BG:gerelateerde StUF:entiteittype="NAT" StUF:verwerkingssoort="T">
+<BG:code>1</BG:code>
+</BG:gerelateerde>
+<BG:inp.redenVerkrijging>123</BG:inp.redenVerkrijging>
+<BG:inp.datumVerkrijging>19990423</BG:inp.datumVerkrijging>
+<BG:inp.redenVerlies>123</BG:inp.redenVerlies>
+<BG:inp.datumVerlies>20010501</BG:inp.datumVerlies>
+<BG:inOnderzoek StUF:metagegeven="true" xsi:nil="true" StUF:noValue="geenWaarde"/>
+<BG:aanduidingStrijdigheidNietigheid StUF:metagegeven="true" xsi:nil="true" StUF:noValue="geenWaarde"/>
+<StUF:tijdstipRegistratie xsi:nil="true" StUF:noValue="geenWaarde"/>
+</BG:inp.heeftAlsNationaliteit>
+</BG:object>
+</BG:npsLk01>
